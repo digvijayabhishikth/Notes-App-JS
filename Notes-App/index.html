@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/notes-icon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="author" content="Digivjay Abhishikth">
+    <link rel="shortcut icon" href="./images/Notes.webp" type="image/x-icon">
+    <title>Notes | Home</title>
+</head>
+<body>
+    <header class="header">
+        <div class="head-container">
+            <div class="conts">
+                <img src="./images/Notes.webp" alt="Icon">
+                <a href=""><h3>Notepad</h3></a>
+            </div> 
+            <nav class="nav-bar">
+                <ul class="list">
+                    <li><a href="">Home</a></li>
+                    <li><a href="./archive.html">Archive</a></li>
+                    <li><a href="./about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="inputcontainer">
+        <div class="input-container">
+            <input type="text" name="" id="title"  class="input title" placeholder="Title">
+            <input type="text" class="input notes" placeholder="Enter your Notes">
+            <button class="addBtn button">
+                <span class="material-icons-outlined">
+                    add
+                </span>
+            </button>
+        </div>
+    </div>
+    <div class="notes-display">
+        <div class="pinnedNotes hidden ">Pinned Notes</div>
+        <div class="pinned-notes-container pinned-div"></div>
+        <div class="allNotes hidden">Notes</div>
+        <div class="all-notes-container notes-div"></div>
+    </div>
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
